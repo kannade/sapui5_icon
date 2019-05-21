@@ -1,0 +1,17 @@
+<mvc:View controllerName="nickcode_ru_customIcon.controller.main" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<core:Icon src="sap-icon://nickicon/smart" class="iconNickClass" color="#031E48"/>
+						<core:Icon src="sap-icon://nickicon/photo" class="iconNickClass sapUiMediumMarginBegin" color="#FF1965"/>
+						<core:Icon src="sap-icon://nickicon/smart1" class="iconNickClass sapUiMediumMarginBegin" color="#0094FF"/>
+						<core:Icon src="sap-icon://nickicon/watch" class="iconNickClass sapUiMediumMarginBegin" color="#32A800"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
